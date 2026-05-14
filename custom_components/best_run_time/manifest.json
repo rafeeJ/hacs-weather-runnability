@@ -1,13 +1,17 @@
 {
   "domain": "best_run_time",
   "name": "Best Run Time",
-  "codeowners": ["@rafeeJ"],
+  "codeowners": [
+    "@rafeeJ"
+  ],
   "config_flow": true,
-  "dependencies": ["weather"],
+  "dependencies": [
+    "weather"
+  ],
   "documentation": "https://github.com/rafeeJ/hacs-weather-runnability",
   "integration_type": "service",
   "iot_class": "calculated",
   "issue_tracker": "https://github.com/rafeeJ/hacs-weather-runnability/issues",
   "requirements": [],
-  "version": "0.1.0"
+  "version": "0.2.0"
 }
