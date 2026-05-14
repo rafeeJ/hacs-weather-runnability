@@ -22,3 +22,6 @@ jobs:
       - uses: hacs/action@main
         with:
           category: integration
+          # TODO: remove once brand assets are merged into home-assistant/brands
+          # https://github.com/home-assistant/brands
+          ignore: brands
