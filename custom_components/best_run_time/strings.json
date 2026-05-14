@@ -1,0 +1,43 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Best Run Time",
+        "description": "Pick the weather entity to score, and tune what counts as a good hour to run.",
+        "data": {
+          "weather_entity": "Weather entity",
+          "ideal_temp": "Ideal temperature (°C)",
+          "max_wind": "Max acceptable wind speed (km/h)",
+          "max_rain_prob": "Max acceptable rain probability (%)",
+          "look_ahead_hours": "Hours to look ahead",
+          "run_window_start_hour": "Earliest hour to consider (0–23)",
+          "run_window_end_hour": "Latest hour to consider (0–23)"
+        }
+      }
+    },
+    "error": {
+      "invalid_window": "The earliest hour must be before the latest hour."
+    },
+    "abort": {
+      "already_configured": "This weather entity is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Best Run Time options",
+        "data": {
+          "ideal_temp": "Ideal temperature (°C)",
+          "max_wind": "Max acceptable wind speed (km/h)",
+          "max_rain_prob": "Max acceptable rain probability (%)",
+          "look_ahead_hours": "Hours to look ahead",
+          "run_window_start_hour": "Earliest hour to consider (0–23)",
+          "run_window_end_hour": "Latest hour to consider (0–23)"
+        }
+      }
+    },
+    "error": {
+      "invalid_window": "The earliest hour must be before the latest hour."
+    }
+  }
+}
