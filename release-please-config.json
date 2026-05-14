@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "release-type": "simple",
+  "include-component-in-tag": false,
+  "packages": {
+    ".": {
+      "package-name": "best_run_time",
+      "extra-files": [
+        {
+          "type": "json",
+          "path": "custom_components/best_run_time/manifest.json",
+          "jsonpath": "$.version"
+        }
+      ]
+    }
+  }
+}
